@@ -30,7 +30,7 @@
 			<Item Name="Get Next Event.vi" Type="VI" URL="../SubVI/Get Next Event.vi"/>
 			<Item Name="Queue Operator.vi" Type="VI" URL="../SubVI/Queue Operator.vi"/>
 		</Item>
-		<Item Name="Queue Message Handler.vi" Type="VI" URL="../Queue Message Handler.vi"/>
+		<Item Name="Queue Message Handler.vi" Type="VI" URL="/&lt;vilib&gt;/YU/Framework/Queue Message Handler.vi"/>
 		<Item Name="State Machine.vi" Type="VI" URL="../State Machine.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
