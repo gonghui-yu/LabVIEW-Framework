@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-12 15:21:40" Modified_Date="2023-12-13 09:03:32" Creator="Administrator" Comments="" ID="05fb831088adf51416ef06f9546a6d53">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-12 15:21:40" Modified_Date="2023-12-13 13:40:54" Creator="Administrator" Comments="" ID="f2ee5beecea96870ce9f5ef66b294818">
   <Library_General_Settings>
     <Package_File_Name>YU_lib_Framework</Package_File_Name>
-    <Library_Version>1.0.0.6</Library_Version>
+    <Library_Version>1.0.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>_build</Library_Output_Folder>
@@ -242,7 +242,7 @@
         <Path>Queue State Machine.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>185679941353D4B6ECC740966F8C7AB6</GUID>
+      <GUID>B6FB77D36E7D2A238A1D4F5173A11179</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
