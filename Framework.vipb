@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-12 15:21:40" Modified_Date="2023-12-14 15:40:54" Creator="Administrator" Comments="" ID="8b2c8ef874723e0e10da5775a76b4e68">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-12 15:21:40" Modified_Date="2023-12-14 15:54:36" Creator="Administrator" Comments="" ID="bb07c798a8b74b4b6ed4c1c15af76551">
   <Library_General_Settings>
     <Package_File_Name>YU_lib_Framework</Package_File_Name>
-    <Library_Version>1.0.0.11</Library_Version>
+    <Library_Version>1.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>_build</Library_Output_Folder>
@@ -156,8 +156,8 @@
       <Windows_7>true</Windows_7>
       <Windows_Vista>true</Windows_Vista>
       <Windows_XP>true</Windows_XP>
-      <Mac_OS>true</Mac_OS>
-      <Linux>true</Linux>
+      <Mac_OS>false</Mac_OS>
+      <Linux>false</Linux>
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
       <Windows_8>true</Windows_8>
@@ -247,7 +247,7 @@
         <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Queue Operator.vi</NameSub_Menu_Name>
         <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
+        <is_Merge_VI>true</is_Merge_VI>
         <Position>
           <Row>1</Row>
           <Column>1</Column>
@@ -270,7 +270,7 @@
         <Path>Error Case.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7407C2F6A47E7813051D6AA4DF519390</GUID>
+      <GUID>AA1267DE1F9D716104FFE08A52641F86</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
