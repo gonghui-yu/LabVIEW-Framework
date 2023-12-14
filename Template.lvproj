@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -30,6 +30,7 @@
 			<Item Name="Get Next Event.vi" Type="VI" URL="../SubVI/Get Next Event.vi"/>
 			<Item Name="Queue Operator.vi" Type="VI" URL="../SubVI/Queue Operator.vi"/>
 		</Item>
+		<Item Name="Error Case.vi" Type="VI" URL="../Error Case.vi"/>
 		<Item Name="Queue Message Handler.vi" Type="VI" URL="../Queue Message Handler.vi"/>
 		<Item Name="Queue State Machine.vi" Type="VI" URL="../Queue State Machine.vi"/>
 		<Item Name="State Machine.vi" Type="VI" URL="../State Machine.vi"/>
