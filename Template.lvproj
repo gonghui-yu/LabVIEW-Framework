@@ -30,6 +30,7 @@
 			<Item Name="Get Next Event.vi" Type="VI" URL="../SubVI/Get Next Event.vi"/>
 			<Item Name="Queue Operator.vi" Type="VI" URL="../SubVI/Queue Operator.vi"/>
 		</Item>
+		<Item Name="Dynamic Call.vi" Type="VI" URL="../Dynamic Call.vi"/>
 		<Item Name="Error Case.vi" Type="VI" URL="../Error Case.vi"/>
 		<Item Name="Queue Message Handler.vi" Type="VI" URL="../Queue Message Handler.vi"/>
 		<Item Name="Queue State Machine.vi" Type="VI" URL="../Queue State Machine.vi"/>
