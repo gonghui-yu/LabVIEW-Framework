@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-12 15:21:40" Modified_Date="2024-02-27 15:37:07" Creator="Administrator" Comments="" ID="71ed23b60b1767cde8447a94a8bf1ed1">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-12-12 15:21:40" Modified_Date="2024-02-28 09:15:08" Creator="Administrator" Comments="" ID="0fb3dd6b13ce34def096dca929f3b8a1">
   <Library_General_Settings>
     <Package_File_Name>YU_lib_Template</Package_File_Name>
-    <Library_Version>1.0.0.18</Library_Version>
+    <Library_Version>1.0.0.19</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>_build</Library_Output_Folder>
@@ -284,7 +284,7 @@
         <Path>Dynamic Call.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0625435EA63D28A3E427B9BDC9651406</GUID>
+      <GUID>EC7A36EF1319C9331B0975CEB2B91FE0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
