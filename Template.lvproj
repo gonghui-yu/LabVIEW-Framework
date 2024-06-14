@@ -11,31 +11,33 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Control" Type="Folder">
-			<Item Name="Queue Data.ctl" Type="VI" URL="../Control/Queue Data.ctl"/>
+		<Item Name="Actor Framework" Type="Folder">
+			<Item Name="Read Enqueuer.vi" Type="VI" URL="../Actor Framework/Read Enqueuer.vi"/>
+			<Item Name="UI Event Loop.vi" Type="VI" URL="../Actor Framework/UI Event Loop.vi"/>
 		</Item>
-		<Item Name="SubVI" Type="Folder">
-			<Item Name="Queue" Type="Folder">
-				<Item Name="Queue Array Create.vi" Type="VI" URL="../SubVI/Queue Array Create.vi"/>
-				<Item Name="Queue Array Destroy.vi" Type="VI" URL="../SubVI/Queue Array Destroy.vi"/>
-				<Item Name="Queue Create.vi" Type="VI" URL="../SubVI/Queue Create.vi"/>
-				<Item Name="Queue Destroy.vi" Type="VI" URL="../SubVI/Queue Destroy.vi"/>
-				<Item Name="Queue Flush.vi" Type="VI" URL="../SubVI/Queue Flush.vi"/>
-				<Item Name="Queue Insert.vi" Type="VI" URL="../SubVI/Queue Insert.vi"/>
-				<Item Name="Queue Lossy Insert.vi" Type="VI" URL="../SubVI/Queue Lossy Insert.vi"/>
-				<Item Name="Queue Remove.vi" Type="VI" URL="../SubVI/Queue Remove.vi"/>
-				<Item Name="Queue Status.vi" Type="VI" URL="../SubVI/Queue Status.vi"/>
-				<Item Name="Queue Valid.vi" Type="VI" URL="../SubVI/Queue Valid.vi"/>
+		<Item Name="Normal Framework" Type="Folder">
+			<Item Name="Control" Type="Folder">
+				<Item Name="Queue Data.ctl" Type="VI" URL="../Normal Framework/Control/Queue Data.ctl"/>
 			</Item>
-			<Item Name="Get Next Event.vi" Type="VI" URL="../SubVI/Get Next Event.vi"/>
-			<Item Name="Queue Operator.vi" Type="VI" URL="../SubVI/Queue Operator.vi"/>
+			<Item Name="SubVI" Type="Folder">
+				<Item Name="Get Next Event.vi" Type="VI" URL="../Normal Framework/SubVI/Get Next Event.vi"/>
+				<Item Name="Queue Array Create.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Array Create.vi"/>
+				<Item Name="Queue Array Destroy.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Array Destroy.vi"/>
+				<Item Name="Queue Create.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Create.vi"/>
+				<Item Name="Queue Destroy.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Destroy.vi"/>
+				<Item Name="Queue Flush.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Flush.vi"/>
+				<Item Name="Queue Insert.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Insert.vi"/>
+				<Item Name="Queue Lossy Insert.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Lossy Insert.vi"/>
+				<Item Name="Queue Operator.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Operator.vi"/>
+				<Item Name="Queue Remove.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Remove.vi"/>
+				<Item Name="Queue Status.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Status.vi"/>
+				<Item Name="Queue Valid.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Valid.vi"/>
+			</Item>
+			<Item Name="Event Loop.vi" Type="VI" URL="../Normal Framework/Event Loop.vi"/>
+			<Item Name="Queue Message Handler.vi" Type="VI" URL="../Normal Framework/Queue Message Handler.vi"/>
+			<Item Name="Queue State Machine.vi" Type="VI" URL="../Normal Framework/Queue State Machine.vi"/>
+			<Item Name="State Machine.vi" Type="VI" URL="../Normal Framework/State Machine.vi"/>
 		</Item>
-		<Item Name="Actor UI.vi" Type="VI" URL="../Actor UI.vi"/>
-		<Item Name="Dynamic Call.vi" Type="VI" URL="../Dynamic Call.vi"/>
-		<Item Name="Error Case.vi" Type="VI" URL="../Error Case.vi"/>
-		<Item Name="Queue Message Handler.vi" Type="VI" URL="../Queue Message Handler.vi"/>
-		<Item Name="Queue State Machine.vi" Type="VI" URL="../Queue State Machine.vi"/>
-		<Item Name="State Machine.vi" Type="VI" URL="../State Machine.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
