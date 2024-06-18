@@ -38,6 +38,8 @@
 			<Item Name="Queue State Machine.vi" Type="VI" URL="../Normal Framework/Queue State Machine.vi"/>
 			<Item Name="State Machine.vi" Type="VI" URL="../Normal Framework/State Machine.vi"/>
 		</Item>
+		<Item Name="Dynamic Call.vi" Type="VI" URL="../Dynamic Call.vi"/>
+		<Item Name="Error Case.vi" Type="VI" URL="../Error Case.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
