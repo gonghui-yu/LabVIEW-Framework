@@ -38,6 +38,10 @@
 			<Item Name="Queue State Machine.vi" Type="VI" URL="../Normal Framework/Queue State Machine.vi"/>
 			<Item Name="State Machine.vi" Type="VI" URL="../Normal Framework/State Machine.vi"/>
 		</Item>
+		<Item Name="Time" Type="Folder">
+			<Item Name="System Time String(ms).vi" Type="VI" URL="../Time/System Time String(ms).vi"/>
+			<Item Name="System Time String(s).vi" Type="VI" URL="../Time/System Time String(s).vi"/>
+		</Item>
 		<Item Name="Dynamic Call.vi" Type="VI" URL="../Dynamic Call.vi"/>
 		<Item Name="Error Case.vi" Type="VI" URL="../Error Case.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
