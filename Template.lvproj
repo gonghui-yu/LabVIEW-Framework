@@ -39,8 +39,20 @@
 			<Item Name="State Machine.vi" Type="VI" URL="../Normal Framework/State Machine.vi"/>
 		</Item>
 		<Item Name="Time" Type="Folder">
-			<Item Name="System Time String(ms).vi" Type="VI" URL="../Time/System Time String(ms).vi"/>
-			<Item Name="System Time String(s).vi" Type="VI" URL="../Time/System Time String(s).vi"/>
+			<Item Name="SubVI" Type="Folder">
+				<Item Name="Array String(ms) to Stamp.vi" Type="VI" URL="../Time/SubVI/Array String(ms) to Stamp.vi"/>
+				<Item Name="Array String(s) to Stamp.vi" Type="VI" URL="../Time/SubVI/Array String(s) to Stamp.vi"/>
+				<Item Name="Array String(us) to Stamp.vi" Type="VI" URL="../Time/SubVI/Array String(us) to Stamp.vi"/>
+				<Item Name="Single String(ms) to Stamp.vi" Type="VI" URL="../Time/SubVI/Single String(ms) to Stamp.vi"/>
+				<Item Name="Single String(s) to Stamp.vi" Type="VI" URL="../Time/SubVI/Single String(s) to Stamp.vi"/>
+				<Item Name="Single String(us) to Stamp.vi" Type="VI" URL="../Time/SubVI/Single String(us) to Stamp.vi"/>
+			</Item>
+			<Item Name="String(ms) to Stamp.vi" Type="VI" URL="../Time/String(ms) to Stamp.vi"/>
+			<Item Name="String(s) to Stamp.vi" Type="VI" URL="../Time/String(s) to Stamp.vi"/>
+			<Item Name="String(us) to Stamp.vi" Type="VI" URL="../Time/String(us) to Stamp.vi"/>
+			<Item Name="Time String(ms).vi" Type="VI" URL="../Time/Time String(ms).vi"/>
+			<Item Name="Time String(s).vi" Type="VI" URL="../Time/Time String(s).vi"/>
+			<Item Name="Time String(us).vi" Type="VI" URL="../Time/Time String(us).vi"/>
 		</Item>
 		<Item Name="Dynamic Call.vi" Type="VI" URL="../Dynamic Call.vi"/>
 		<Item Name="Error Case.vi" Type="VI" URL="../Error Case.vi"/>
