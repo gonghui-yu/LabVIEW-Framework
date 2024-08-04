@@ -33,7 +33,7 @@
 				<Item Name="Queue Status.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Status.vi"/>
 				<Item Name="Queue Valid.vi" Type="VI" URL="../Normal Framework/SubVI/Queue Valid.vi"/>
 			</Item>
-			<Item Name="Event Loop.vi" Type="VI" URL="../Normal Framework/Event Loop.vi"/>
+			<Item Name="Event Loop.vi" Type="VI" URL="/&lt;vilib&gt;/YU/YU-Template/Normal Framework/Event Loop.vi"/>
 			<Item Name="Queue Message Handler.vi" Type="VI" URL="../Normal Framework/Queue Message Handler.vi"/>
 			<Item Name="Queue State Machine.vi" Type="VI" URL="../Normal Framework/Queue State Machine.vi"/>
 			<Item Name="State Machine.vi" Type="VI" URL="../Normal Framework/State Machine.vi"/>
@@ -47,15 +47,20 @@
 				<Item Name="Single String(s) to Stamp.vi" Type="VI" URL="../Time/SubVI/Single String(s) to Stamp.vi"/>
 				<Item Name="Single String(us) to Stamp.vi" Type="VI" URL="../Time/SubVI/Single String(us) to Stamp.vi"/>
 			</Item>
+			<Item Name="Timer" Type="Folder">
+				<Item Name="Timer.lvclass" Type="LVClass" URL="../Time/Timer/Timer.lvclass"/>
+			</Item>
 			<Item Name="String(ms) to Stamp.vi" Type="VI" URL="../Time/String(ms) to Stamp.vi"/>
 			<Item Name="String(s) to Stamp.vi" Type="VI" URL="../Time/String(s) to Stamp.vi"/>
 			<Item Name="String(us) to Stamp.vi" Type="VI" URL="../Time/String(us) to Stamp.vi"/>
 			<Item Name="Time String(ms).vi" Type="VI" URL="../Time/Time String(ms).vi"/>
 			<Item Name="Time String(s).vi" Type="VI" URL="../Time/Time String(s).vi"/>
 			<Item Name="Time String(us).vi" Type="VI" URL="../Time/Time String(us).vi"/>
+			<Item Name="Timer.vi" Type="VI" URL="/&lt;vilib&gt;/YU/YU-Template/Time/Timer.vi"/>
 		</Item>
 		<Item Name="Dynamic Call.vi" Type="VI" URL="../Dynamic Call.vi"/>
 		<Item Name="Error Case.vi" Type="VI" URL="../Error Case.vi"/>
+		<Item Name="Test Timer.vi" Type="VI" URL="../Test Timer.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -93,6 +98,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="Timer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/YU/YU-Template/Time/Timer/Timer.lvclass"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
@@ -101,6 +107,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Timer.vi" Type="VI" URL="../Time/Timer.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
