@@ -38,6 +38,10 @@
 			<Item Name="Queue State Machine.vi" Type="VI" URL="../Normal Framework/Queue State Machine.vi"/>
 			<Item Name="State Machine.vi" Type="VI" URL="../Normal Framework/State Machine.vi"/>
 		</Item>
+		<Item Name="String" Type="Folder">
+			<Item Name="Text to UTF-8.vi" Type="VI" URL="../String/Text to UTF-8.vi"/>
+			<Item Name="UTF-8 to Text.vi" Type="VI" URL="../String/UTF-8 to Text.vi"/>
+		</Item>
 		<Item Name="Time" Type="Folder">
 			<Item Name="SubVI" Type="Folder">
 				<Item Name="Array String(ms) to Stamp.vi" Type="VI" URL="../Time/SubVI/Array String(ms) to Stamp.vi"/>
